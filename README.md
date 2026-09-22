@@ -5,6 +5,8 @@
 ![Language](https://img.shields.io/badge/HDL-Verilog%20%7C%20VHDL-brightgreen.svg)
 ![Clock](https://img.shields.io/badge/Clock-50%20MHz-orange.svg)
 ![Performance](https://img.shields.io/badge/CPI%20Speedup-16.82%25-success.svg)
+[![Author](https://img.shields.io/badge/Author-Danial%20Ghorbani-lightgrey.svg)](https://github.com/A-Magpie)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Danial%20Qorbani-blue.svg)](https://linkedin.com/in/danial-qorbani)
 
 A synthesizable 32-bit 5-stage pipelined ARM processor implemented in Verilog and verified on the Xilinx Zynq-7000 SoC FPGA (`xc7z010clg400-1`). The architecture features full hardware hazard handling (data forwarding and stall-based hazard detection), speculative branch resolution with pipeline flushes, an integrated condition check engine for conditional execution, a multi-mode barrel shifter, and an asynchronous off-chip SRAM controller.
 
@@ -338,3 +340,14 @@ ARM-Pipelined-Processor-FPGA/
 3. Run **Run Implementation** (`launch_runs impl_1 -jobs 4`).
 4. Review the generated utilization and timing reports under `Project Summary`.
 5. Click **Generate Bitstream** to create the target `.bit` file for hardware programming.
+
+---
+
+## Author & Academic Context
+
+* **Author:** [Danial Ghorbani](https://github.com/A-Magpie)
+* **LinkedIn:** [Danial Qorbani](https://linkedin.com/in/danial-qorbani)
+* **Degree:** B.Sc. in Electrical Engineering (Electronics), Minor in Computer Engineering
+* **Course:** Digital System Design II / Computer Architecture Lab
+* **Institution:** School of Electrical and Computer Engineering, University of Tehran
+* **Contact:** [daniel.ghorbani.work@gmail.com](mailto:daniel.ghorbani.work@gmail.com)
